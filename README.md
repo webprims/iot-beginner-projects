@@ -12,6 +12,7 @@ Beginner-friendly IoT and embedded-system examples maintained by **WebPrims**. T
 - MQTT publish/subscribe concepts
 - Temperature and humidity monitoring
 - Basic automation logic
+- PIR motion detection and timer-based control
 
 ## Suggested hardware
 
@@ -21,6 +22,7 @@ Beginner-friendly IoT and embedded-system examples maintained by **WebPrims**. T
 - Push button
 - DHT11/DHT22 sensor
 - LDR/light sensor
+- PIR motion sensor
 - Jumper wires
 
 ## Repository structure
@@ -34,8 +36,13 @@ iot-beginner-projects/
 ├── 05-web-led-control/
 ├── 06-mqtt-publisher/
 ├── 07-dht-monitor/
-└── 08-smart-light-logic/
+├── 08-smart-light-logic/
+└── 09-motion-activated-light/
 ```
+
+## Latest project
+
+`09-motion-activated-light` uses an ESP32, PIR sensor, and LED to demonstrate a practical automation pattern: detect movement, switch a light on, and automatically turn it off after a timeout.
 
 ## How to use these examples
 
